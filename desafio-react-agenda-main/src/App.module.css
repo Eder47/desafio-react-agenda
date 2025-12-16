@@ -1,0 +1,55 @@
+.app {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.headerContent {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 400;
+  color: #202124;
+  margin: 0 0 8px 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #5f6368;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 800px;
+}
+
+.headerActions {
+  margin-bottom: 24px;
+}
+
+.searchSection {
+  margin-bottom: 24px;
+}
+
+.main {
+  margin-top: 24px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 20px 12px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+}

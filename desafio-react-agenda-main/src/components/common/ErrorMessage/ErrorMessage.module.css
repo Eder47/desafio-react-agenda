@@ -1,0 +1,21 @@
+.errorContainer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background-color: #fce8e6;
+  border-left: 4px solid #ea4335;
+  border-radius: 4px;
+  margin: 20px 0;
+}
+
+.icon {
+  color: #ea4335;
+  flex-shrink: 0;
+}
+
+.message {
+  font-size: 14px;
+  color: #5f6368;
+  margin: 0;
+}
